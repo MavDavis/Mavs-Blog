@@ -106,7 +106,10 @@ component:ForgotPassword,
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+    scrollBehavior(to, from){
+    return{top:0, behavior:'smooth'}
+  }
 })
 router.beforeEach((to, from, next)=>{
   document.title = `${to.meta.title}~Mavs-Blogs `;
