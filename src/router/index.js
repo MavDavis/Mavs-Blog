@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+Limport { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/HomeView.vue'
 import Login from '../views/Login.vue'
 import ForgotPassword from '../views/ForgotPassword'
@@ -11,7 +11,7 @@ import PostPreview from '../views/PostPreview.vue'
 import Profile from '../views/Profile.vue'
 import ViewBlog from '../views/ViewBlog.vue'
 import EditBlog from '../views/EditBlog.vue'
-
+//test
 const routes = [
   {
     path: '/',
